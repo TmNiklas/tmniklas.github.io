@@ -21,8 +21,8 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <a class="navbar-brand" href="#">T<sup>3</sup></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
