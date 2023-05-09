@@ -3,9 +3,8 @@
 <div class="container">
     <div class="row">
       <div class="d-flex justify-content-center">
-        <div class="glass">
-          <div class="card" style="width: auto;">
-            <div class="card-body">
+      <div class="card glass" style="width: auto;">
+            <div class="card-body glass">
               <div id="board">
                 <div class="cell" onclick="placeMarker(this)"></div>
                 <div class="cell" onclick="placeMarker(this)"></div>
@@ -19,7 +18,7 @@
               </div>
             </div>
           </div>
-        </div>
+
       </div>
     </div>
 	
