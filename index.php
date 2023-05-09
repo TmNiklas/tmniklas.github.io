@@ -23,7 +23,6 @@
     </div>
 	
 		<button class="glass">Reset</button>
-		<p id="turn">Player 1's Turn</p>
 	</div>
 </div>
 
