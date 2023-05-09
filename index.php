@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
       <div class="d-flex justify-content-center">
-      <div class="card glass" style="width: auto;">
+      <div class="card glass">
             <div class="card-body">
               <div id="board">
                 <div class="cell"></div>

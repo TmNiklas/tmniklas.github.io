@@ -15,7 +15,7 @@
 	cursor: pointer;
 }
 .cell:hover {
-	background-color: #eee;
+	background-color: #000000;
 }
 
 .glass{
