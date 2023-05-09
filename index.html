@@ -15,18 +15,26 @@
   <body style="background-image: url(background.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;"">
 
 	<div class="container">
-		<h1>Tic Tac Toe</h1>
-		<div id="board">
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-			<div class="cell" onclick="placeMarker(this)"></div>
-		</div>
+    <div class="row">
+      
+      <div class="card" style="width: 36rem;">
+        <div class="card-body">
+          <div id="board">
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+	
 		<button onclick="reset()">Reset</button>
 		<p id="turn">Player 1's Turn</p>
 	</div>
